@@ -4,7 +4,9 @@
   "type": "module",
   "description": "",
   "main": "go.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node go.js"
+  },
   "keywords": [],
   "author": "Joan Denchev",
   "license": "ISC",
