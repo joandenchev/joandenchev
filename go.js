@@ -5,6 +5,6 @@ go.get('/', (req, res) => {
     res.send('Hello! Is it me you\'re lookign for..?')
 })
 
-go.listen(3105, function () {
+go.listen(process.env.PORT || 3105, function () {
     console.log('listening')
 })
