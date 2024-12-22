@@ -2,7 +2,7 @@ import express from 'express'
 const go = express()
 
 go.get('/', (req, res) => {
-    res.send('Hello! Is it me you\'re lookign for..?')
+    res.send('<h1>Oktai ti si mnogo sladuk! ❤️</h1>')
 })
 
 go.listen(process.env.PORT || 3105, function () {
