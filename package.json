@@ -1,0 +1,14 @@
+{
+  "name": "maximumpyrus",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "go.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Joan Denchev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
